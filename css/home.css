@@ -54,3 +54,24 @@
 .socials > * {
     margin-right: 1rem;
 }
+
+@media (max-width: 768px) {
+    .intro-card {
+        max-width: 92vw;
+        width: 92vw;
+        padding: 1.5rem;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .typing {
+        font-size: 1.1rem;
+        min-height: 32px;
+    }
+
+    .socials {
+        font-size: 1.1rem;
+    }
+}

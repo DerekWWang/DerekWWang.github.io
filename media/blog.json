@@ -1,0 +1,11 @@
+{
+    "posts": [
+        {
+            "title": "Luda: The Geopolitical Risk Assessment Tool for LLMs",
+            "date": "2026-03-01",
+            "in-progress": true,
+            "content-path": "blog/",
+            "tags": ["LLMs", "Research", "Software Architecture"]
+        }
+    ]
+}

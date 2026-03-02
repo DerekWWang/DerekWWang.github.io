@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="../css/root.css">
-    <link rel="stylesheet" href="../css/about.css"> -->
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/about.css">
 
     <title>Writing</title>
 </head>
@@ -105,6 +105,16 @@
         .reader-content {
             line-height: 1.8;
             font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .document-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .reader-container {
+                padding: 1rem;
+            }
         }
         </style>
 

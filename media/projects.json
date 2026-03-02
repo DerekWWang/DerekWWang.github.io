@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Luda",
+        "description": "The geopolitical risk and understanding tool for LLMs",
+        "description_long": "The geopolitical risk assessment tool I built for my senior project. It uses a combination of machine learning and natural language processing to analyze news articles and social media posts to predict potential geopolitical risks.",
+        "tech": ["Python", "FastAPI", "NextJS", "React", "MongoDB"],
+        "link": "",
+        "in-progress": true
+    },
+    {
+        "name": "Kernel Cooker",
+        "description": "A tool to help students understand how kernels work in computer vision",
+        "description_long": "A web-based tool that allows students to visualize how different kernels (filters) affect images in computer vision. It provides an interactive interface where users can apply various kernels to sample images and see the results in real-time.",
+        "tech": ["React", "Computer Vision"],
+        "link": "https://kernel-cooker.vercel.app/"
+    },
+    {
+        "name": "Moonpass",
+        "description": "Smash or Pass for the Project Moon franchise",
+        "tech": ["React", "NextJS", "MongoDB"],
+        "link": "https://moonpass.vercel.app/"
+    }
+]

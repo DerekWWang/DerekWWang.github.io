@@ -1,4 +1,4 @@
-const roles = ["Pentester", "ML Engineer", "Software Developer", "Guitarist"]
+const roles = ["Shoegaze Enjoyer", "ML Engineer", "Software Developer"]
 const randomChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+[]{}|;:',.<>/?";
 const intervalSpeed = 75
 let roleIndex = 0;

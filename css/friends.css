@@ -1,13 +1,9 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1rem;
-    max-height: 90vh;
-    overflow-y: scroll; 
-    overflow-y: hidden;
-    /* padding: 1rem; */
 }
-  
+
 .card {
     background-color: #333;
     color: white;
@@ -22,14 +18,26 @@
 
 .skills {
     margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.skill {
+    background-color: #2a2a2f;
+    color: #888;
+    font-size: 0.72rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #353538;
 }
 
 section {
     margin-top: 10vh;
-    height: 90vh;
+    min-height: 90vh;
     width: 100%;
 
-    padding: 5rem;
+    padding: 2rem 5rem;
 }
 
 a {
@@ -38,4 +46,16 @@ a {
 
 a::after {
     color: white;
+}
+
+@media (max-width: 768px) {
+    section {
+        margin-top: 50px;
+        min-height: calc(100vh - 50px);
+        padding: 1.25rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
